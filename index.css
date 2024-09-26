@@ -24,7 +24,6 @@
 }
 
 .header {
-    /* border: 1px solid black; */
     height: 88.91px;
     width: 100vw;
     display: flex;
@@ -37,7 +36,6 @@
     width: 1100px;
     display: flex;
     height: 100%;
-    /* border: 1px solid orangered ; */
     align-items: center;
 }
 
@@ -50,11 +48,13 @@
     justify-content: space-evenly;
     color: rgb(207, 207, 207);
 }
-.article-control{
+
+.article-control {
     height: fit-content;
     width: 100vw;
     /* background-color: red; */
 }
+
 /* .dot{
     width: 7px;
     height: 7px;
@@ -67,10 +67,9 @@
     width: 70%;
     height: 100%;
     display: flex;
-    /* border: 1px solid green; */
     justify-content: space-evenly;
     align-items: center;
-    color: white    ;
+    color: white;
 }
 
 .weather-control h6 {
@@ -108,7 +107,6 @@
 .article {
     width: 100vw;
     height: fit-content;
-    /* border: 2px solid black; */
 }
 
 .box {
@@ -116,27 +114,27 @@
     height: 385px;
     margin: auto;
     margin-top: 10px;
-    /* border: 1px solid green;     */
 }
-.left h1{
+
+.left h1 {
     color: white;
 }
-.left h6{
+
+.left h6 {
     color: rgb(97, 97, 97);
 }
 
 .linear {
     width: 550px;
     height: 385px;
-    /* background: linear-gradient(to right, rgb(244, 242, 242) 10%, white 90%); */
     background-color: black;
 }
 
-.chooseBtn:hover{
+.chooseBtn:hover {
     padding: 10px 30px;
 }
 
-.chooseBtn{
+.chooseBtn {
     border-radius: 30px;
     font-size: 12px;
     color: white;
@@ -148,16 +146,17 @@
     cursor: pointer;
     transition: .5s;
 }
-.month:hover p{
+
+.month:hover p {
     padding: 0px 0px 7px 0px;
     color: rgb(79, 123, 225);
     cursor: pointer;
 }
+
 .share button {
     /* color: gray; */
     padding: 10px 20px;
     margin-top: 15px;
-    /* background-color: rgb(233, 230, 230); */
     border-radius: 10px;
     border: none;
     display: flex;
@@ -165,18 +164,19 @@
     align-items: center;
     color: rgb(198, 198, 198);
     background-color: transparent;
-    /* border: 1px solid red; */
 }
 
-.share:hover button{
+.share:hover button {
     scale: 1.1;
     rotate: z 30deg;
     transition: .5s;
     padding: 10px 30px;
 }
-.share button>div{
+
+.share button>div {
     color: rgb(198, 198, 198);
 }
+
 .comment button {
     color: rgb(198, 198, 198);
     width: 70px;
@@ -184,7 +184,6 @@
     background-color: transparent;
     border-radius: 10px;
     border: none;
-    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -193,11 +192,10 @@
 .aside {
     width: 1100px;
     height: 385px;
-    /* border: 1px solid red; */
     margin: auto;
     gap: 15px;
     margin-top: 30px;
-    color:rgb(207, 207, 207);
+    color: rgb(207, 207, 207);
 }
 
 .aside img {
@@ -211,7 +209,6 @@
     overflow: hidden;
     cursor: pointer;
     border-radius: 6px;
-    /* border: 4px solid red;   */
 }
 
 .right img {
@@ -249,7 +246,6 @@
 .bottom-control {
     width: 260px;
     height: 175px;
-    /* border: 5px solid green;  */
     position: relative;
     overflow: hidden;
     border-radius: 6px;
@@ -262,7 +258,6 @@
     overflow: hidden;
     cursor: pointer;
     border-radius: 6px;
-    /* border: 4px solid red;   */
 }
 
 .bottom img {
@@ -298,12 +293,11 @@
     margin-top: 70px;
 }
 
-.container2 {   
+.container2 {
     margin: 0;
     background-color: white;
     width: 100vw;
     height: 3400px;
-    border: 2px solid black;
     position: relative;
     /* background-color: red; */
 }
@@ -311,7 +305,6 @@
 .logo2 {
     width: fit-content;
     height: 15px;
-    /* background-color: gray; */
     position: relative;
     left: 560px;
     color: white;
@@ -370,7 +363,6 @@
     top: 10px;
     left: 10px;
     color: white;
-    /* border: 1px solid black; */
 }
 
 .story-logo p {
@@ -387,27 +379,29 @@
     left: 7px;
     bottom: 20px;
     overflow: hidden;
-    /* border: 1px solid red; */
 }
-.text{
+
+.text {
     height: fit-content;
     width: fit-content;
-    /* border: 1px solid red; */
     position: absolute;
     left: 200px;
     top: 0px;
 }
-.text p{
+
+.text p {
     padding: 10px 0px 20px 20px;
     color: black;
     font-size: 19px;
 }
-.text h6{
-    padding: 0px 0px 20px 20px ;
+
+.text h6 {
+    padding: 0px 0px 20px 20px;
     color: rgb(149, 149, 149);
     font-size: 14px;
     font-weight: 50;
 }
+
 .text-control p {
     color: white;
 }
@@ -427,12 +421,11 @@
     transform: scale(1.1);
 }
 
-.day p{
+.day p {
     color: rgb(79, 123, 225);
 }
 
 .days {
-    /* border: 1px solid red; */
     width: 1100px;
     height: 100vh;
     margin: auto;
@@ -441,16 +434,14 @@
 }
 
 .today {
-    /* border: 1px solid orange; */
     /* width: 780px; */
     height: fit-content;
-    position: absolute;  
+    position: absolute;
     margin: auto;
     padding-top: 20px;
 }
 
 .right-news {
-    /* border: 1px solid green; */
     width: 310px;
     height: 100vh;
     position: absolute;
@@ -466,26 +457,28 @@
     height: 170px;
     transition: 0.1s;
 }
+
 .day-button {
     gap: 10px;
     margin-left: 0px;
     /* align-items: baseline; */
     color: rgb(149, 149, 149);
-    border: 1px solid red;
 }
 
 .month button {
     width: 110px;
-    padding: 3px ;
+    padding: 3px;
     border: none;
     border-radius: 3px;
 }
-.month:hover .monthbtn{
+
+.month:hover .monthbtn {
     background-color: rgb(79, 123, 225);
     padding: 3px 0px 0px 0px;
     transition: 1s;
 }
-.monthbtn{
+
+.monthbtn {
     width: 100px;
     height: 10px;
     background-color: gainsboro;
@@ -495,8 +488,9 @@
     width: fit-content;
     height: fit-content;
 }
-.month-button p{
-    margin:3px 3px 7px 3px;
+
+.month-button p {
+    margin: 3px 3px 7px 3px;
     border: none;
     border-radius: 6px;
 }
@@ -509,45 +503,47 @@
 .images {
     width: 750px;
     height: 100%;
-    /* border: 1px solid black; */
     margin-top: 30px;
     overflow: hidden;
     border-radius: 8px;
     position: relative;
 }
 
-.daily{
+.daily {
     height: fit-content;
     width: fit-content;
     padding-top: 70px;
     /* background-color: grey; */
 }
-.img-control{
+
+.img-control {
     width: 210px;
     height: 150px;
-    /* border: 1px solid yellow; */
     position: relative;
     border-radius: 8px;
     overflow: hidden;
 }
-.img-control img{
+
+.img-control img {
     position: absolute;
     height: 100%;
     width: 100%;
     transition: 0.3s;
 }
+
 .right-images {
     width: 100%;
     height: fit-content;
-    /* border: 4px solid purple; */
     /* background-color: gray; */
     display: block;
     margin-top: 20px;
 }
-.img-control:hover img{
-   transform: scale(1.1);
+
+.img-control:hover img {
+    transform: scale(1.1);
 }
-.overlayer{
+
+.overlayer {
     position: absolute;
     top: 0;
     left: 0;
@@ -558,15 +554,18 @@
     transition: 0.3s;
     opacity: 0;
 }
-.overlayer p{
+
+.overlayer p {
     color: #fff;
     display: flex;
     justify-content: center;
     padding-top: 70px;
 }
-.images:hover .overlayer{
+
+.images:hover .overlayer {
     opacity: 1;
 }
+
 .trend-news {
     width: 310px;
     height: fit-content;
@@ -605,16 +604,13 @@
     height: fit-content;
     width: 100vw;
     margin: auto;
-    border: 2px solid red;
     position: relative;
-    /* background-color: red; */
 }
 
 .interview {
     width: 1100px;
     height: fit-content;
     margin: auto;
-    /* border: 2px solid black; */
     position: relative;
 }
 
@@ -624,42 +620,48 @@
     grid-template-areas: "a a b c" "a a d e";
     width: 1100px;
     height: 545px;
-   
+
 }
 
-.interview-photo img{
+.interview-photo img {
     border-radius: 10px;
 }
+
 .one {
     grid-area: a;
     overflow: hidden;
     /* position: relative; */
     border-radius: 6px;
 }
-.one:hover .more p{
+
+.one:hover .more p {
     padding-right: 24px;
 }
-.one:hover img{
+
+.one:hover img {
     transform: scale(1.1);
     border-radius: 10px;
 }
-.one img{
+
+.one img {
     transition: 0.3s;
 }
-.history-control{
+
+.history-control {
     width: 500px;
     height: 80px;
-    /* border: 1px solid red; */
-    position:absolute;
+    position: absolute;
     top: 400px;
     left: 20px;
 }
-.history-control h1{
+
+.history-control h1 {
     font-size: 20px;
     color: white;
     padding-top: 35px;
 }
-.history{
+
+.history {
     width: 75px;
     height: 26px;
     border-radius: 4px;
@@ -669,13 +671,15 @@
     /* top: 400px;
     left: 20px; */
     position: absolute;
-} 
+}
+
 .history p {
     position: absolute;
     top: 7px;
     left: 5px;
 }
-.more{
+
+.more {
     width: fit-content;
     height: fit-content;
     color: white;
@@ -693,23 +697,25 @@
     from{ left: 100px;}
     to{ left: 110px; }
 } */
-.more-arrow{
+.more-arrow {
     font-size: 15px;
     top: 546px;
     left: 100px;
     position: absolute;
     color: white;
     width: 100px;
-    /* border: 1px solid white; */
 }
-.one:hover .more-arrow{
+
+.one:hover .more-arrow {
     animation: move 0.5s;
     position: absolute;
 }
-.one:hover .history-control{
+
+.one:hover .history-control {
     opacity: 0.8;
 }
-.two { 
+
+.two {
     background-color: transparent;
     border-radius: 6px;
 }
@@ -718,42 +724,47 @@
     background-color: transparent;
     border-radius: 6px;
 }
+
 .four {
     background-color: transparent;
     border-radius: 6px;
-}   
+}
+
 .five {
     background-color: transparent;
     border-radius: 6px;
 }
-.style{
+
+.style {
     width: 1100px;
     height: fit-content;
-    /* border: 1px solid purple; */
     margin: auto;
 }
-.style-photo-control{
+
+.style-photo-control {
     width: 1100px;
     height: 400px;
-    border: 1px solid orange;
     gap: 15px;
 }
-.style-photo{
+
+.style-photo {
     width: 300px;
     height: 350px;
-    border: 1px solid rgb(248, 248, 248);
 }
-.style-photo-control img{
+
+.style-photo-control img {
     width: 100%;
     height: 230px;
 }
-.style-photo p{
+
+.style-photo p {
     font-size: 14px;
     color: 000;
     padding-top: 10px;
     padding-left: 10px;
 }
-.style-logo>div:last-child{
+
+.style-logo>div:last-child {
     color: white;
     font-weight: bold;
     width: fit-content;
@@ -764,63 +775,62 @@
     margin-left: 10px;
     border-radius: 3px;
 }
-.style-logo>div:first-child{
+
+.style-logo>div:first-child {
     font-size: 20px;
     margin-top: 20px;
     /* margin-left: 10px; */
     color: 000;
     font-weight: bold;
 }
-.technology{
+
+.technology {
     width: 1100px;
     height: 400px;
-    /* border: 1px solid orange; */
     gap: 15px;
     border-radius: 5px;
 }
-.technology-photo{
+
+.technology-photo {
     width: 300px;
     height: 300px;
-    border: 1px solid rgb(248, 248, 248);
-    /* background-color: red; */
     position: relative;
     top: 30px;
 }
-.technology-logo{
+
+.technology-logo {
     position: relative;
     top: 20px;
     width: fit-content;
     height: fit-content;
-    border: 1px solid red;
-    
+
 }
-.technology img{
+
+.technology img {
     width: 100%;
     height: 170px;
 }
-.comic{
+
+.comic {
     width: 1100px;
     height: 400px;
-    border: 1px solid orange;
     gap: 15px;
     border-radius: 5px;
 }
-.comic-logo{
+
+.comic-logo {
     width: 100%;
     height: fit-content;
-    border: 1px solid red;
 }
-.comic-photo{
+
+.comic-photo {
     width: 550px;
     height: 300px;
-    border: 1px solid rgb(248, 248, 248);
     /* text-align: flex;     */
 }
-.comic-photo img{
+
+.comic-photo img {
     width: 100%;
     height: 200px;
     display: flex;
 }
-
-
-
